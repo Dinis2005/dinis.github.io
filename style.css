@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #b2ebf2;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.section {
+  padding: 50px 20px;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 160px;
+  background-color: #ccc;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #bdeeff;
+}
+
+#home .card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container img {
+  width: 150px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 150px;
+  height: auto;
+}
+
+.item p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
